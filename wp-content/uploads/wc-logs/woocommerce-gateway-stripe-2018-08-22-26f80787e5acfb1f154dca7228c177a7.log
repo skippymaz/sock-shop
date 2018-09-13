@@ -1,0 +1,88 @@
+2018-08-22T09:19:46+00:00 DEBUG 
+====Stripe Version: 4.1.8====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2018-08-22T10:54:41+00:00 DEBUG 
+====Stripe Version: 4.1.8====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2018-08-22T10:54:52+00:00 DEBUG 
+====Stripe Version: 4.1.8====
+====Start Log====
+Error: Unable to verify domain - missing secret key.
+====End Log====
+
+
+2018-08-22T10:59:08+00:00 DEBUG 
+====Stripe Version: 4.1.8====
+====Start Log====
+Error: Unable to verify domain - missing secret key.
+====End Log====
+
+
+2018-08-22T11:02:29+00:00 DEBUG 
+====Stripe Version: 4.1.8====
+====Start Log====
+sources/src_1D1u6Z4qeqBeTUtZg9zxHY9y
+====End Log====
+
+
+2018-08-22T11:02:30+00:00 DEBUG 
+====Stripe Version: 4.1.8====
+====Start Log====
+Error Response: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 35: Unknown SSL protocol error in connection to api.stripe.com:443 
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2018-08-22T11:02:30+00:00 DEBUG 
+====Stripe Version: 4.1.8====
+====Start Log====
+Error: stdClass Object
+(
+    [token_id] => 
+    [customer] => 
+    [source] => 
+    [source_object] => WP_Error Object
+        (
+            [errors] => Array
+                (
+                    [stripe_error] => Array
+                        (
+                            [0] => There was a problem connecting to the Stripe API endpoint.
+                        )
+
+                )
+
+            [error_data] => Array
+                (
+                )
+
+        )
+
+)
+
+====End Log====
+
+
